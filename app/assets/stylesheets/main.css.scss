@@ -1,0 +1,34 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.centered {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.centered p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #FFF;
+	font-size: 56pt;
+}
+
+.Boris {
+	background: #000;
+}
+
+.David {
+	background: #e93f33;
+}
